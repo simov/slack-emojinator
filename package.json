@@ -1,0 +1,39 @@
+{
+  "name": "slack-emojinator",
+  "version": "1.0.0",
+  "description": "Slack Emojinator",
+  "keywords": [
+    "slack",
+    "bulk",
+    "upload",
+    "emoji",
+    "emojinator"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/simov/slack-emojinator",
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simov/slack-emojinator.git"
+  },
+  "dependencies": {
+    "@request/client": "^0.1.0",
+    "@request/multipart": "^0.1.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "slack-emojinator": "./bin/"
+  },
+  "main": "./lib/",
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {},
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
