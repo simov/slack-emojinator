@@ -17,23 +17,26 @@
     "url": "https://github.com/simov/slack-emojinator.git"
   },
   "dependencies": {
-    "@request/client": "^0.1.0",
-    "@request/multipart": "^0.1.1",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "request-compose": "0.0.16",
+    "request-multipart": "0.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "request-logs": "0.0.5"
+  },
   "bin": {
-    "slack-emojinator": "./bin/"
+    "slack-emojinator": "./cli.js"
   },
-  "main": "./lib/",
+  "main": "./emojinator.js",
   "files": [
-    "bin/",
-    "lib/",
+    "cli.js",
+    "emojinator.js",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "package.json"
   ],
   "scripts": {},
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=10.0.0"
   }
 }
